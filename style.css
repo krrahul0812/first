@@ -1,0 +1,192 @@
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(2, 2, 51);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(17, 17, 71);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(128, 128, 248);
+  font-size: 1.1rem;
+}
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 12px 50px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.firstsection > div {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.leftsection {
+  /* background-color: red; */
+  /* width: 34px; */
+  font-size: 2.5rem;
+  /* margin: 70px 0; */
+}
+.leftsection .button{
+  padding: 23px;
+}
+
+.leftsection .btn {
+
+padding: 12px;
+background: #1e2167;
+color: white;
+border: 2px solid white;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+/* z-index: -1; */
+}
+
+
+.rightsection img {
+  /* background-color: red; */
+  width: 90%;
+  margin: 50px;
+}
+
+.purple {
+  color: rgb(154, 72, 232);
+}
+.text-gray {
+  color: grey;
+}
+
+#element {
+  color: rgb(154, 72, 232);
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondsection h1 {
+  font-size: 2rem;
+}
+
+.secondsection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+  /* margin: 0 100px; */
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px ;
+}
+
+.imagetop{
+  width: 35px;   
+   position: relative;
+top: -37px;
+left: -4px;
+}
+
+.imagecss{
+  left: -1px;
+top: -39px;
+width: 25px;
+position: relative;
+}
+
+.imagejava{
+  left: -5px;
+top: -50px;
+width: 50px;
+position: relative;
+}
+
+.imagebootstrap{
+  left: -5px;
+top: -57px;
+width: 68px;
+position: relative;
+
+}
+.verticaltitle{
+  position: relative;
+  top: 75px;
+  width: 150px;
+
+}
+.verticaldesc{
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+
+}
+.footer{
+  background-color: #0e0e1a;
+  height: 233px;
+}
+
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer > div{
+width: 223px;
+}
+
+footer .footerrights{
+text-align: center;
+color: grey;
+padding: 12px 0;
+}
+
+</style>
